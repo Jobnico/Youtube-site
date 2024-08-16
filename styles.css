@@ -1,5 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/youtube-sans');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'YouTube Sans', sans-serif; font-family: 'YouTube Sans Dark', sans-serif;;
     margin: 0;
     padding: 0;
     display: flex;
