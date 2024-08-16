@@ -99,7 +99,7 @@ body {
 .video-grid {
     margin-left: 126px;
     margin-top: 55px;
-    padding: 0px;
+    padding: 5px;
     display: grid;
     grid-template-columns: repeat(4, 3fr);
     gap: 15px;
@@ -122,7 +122,8 @@ body {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+    
     .header {
         flex-direction: column;
         align-items: flex-start;
@@ -144,7 +145,7 @@ body {
     .video-grid {
         margin-left: 0;
         margin-top: 20px;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .video-card {
@@ -154,9 +155,64 @@ body {
     .footer {
         position: static;
     }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+
+    .user-menu {
+        margin: 10px;
+    }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+    
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header .search-bar {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        top: 0;
+    }
+
+    .video-grid {
+        margin-left: 0;
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .video-card {
+        padding: 10px;
+    }
+
+    .footer {
+        position: static;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 10px 0;
+    }
+
+    .user-menu {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 430px) {
     .header {
         padding: 10px;
     }
@@ -185,10 +241,20 @@ body {
     }
 
     .video-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .video-card {
         padding: 8px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin: 8px 0;
+    }
+
+    .user-menu {
+        margin: 10px;
     }
 }
