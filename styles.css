@@ -115,15 +115,6 @@ body {
     text-align: center;
 }
 
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
 /* Responsive Design */
 @media (max-width: 1024px) {
     
@@ -171,10 +162,6 @@ body {
 
     .video-card {
         padding: 10px;
-    }
-
-    .footer {
-        position: static;
     }
 
     p {
@@ -234,10 +221,6 @@ body {
 
     .video-card {
         padding: 10px;
-    }
-
-    .footer {
-        position: static;
     }
 
     p {
